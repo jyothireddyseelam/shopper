@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     input:required{
+        background-color: red;
+     }
+     input:optional{
+        background-color: yellow;
+     }
+     input:required+span{
+        display: inline;
+        color: red;
+     }
+     input:optional+span{
+        display: none;
+     }
+    </style>
+</head>
+<body>
+    <dl>
+        <dt>UserName</dt>
+        <dd><input type="text" required><span>*</span></dd>
+        <dt>Mobiles</dt>
+        <dd><input type="text"><span>*</span></dd>
+        <dt>Age</dt>
+        <dd><input type="number"><span>*</span></dd>
+    </dl>
+    <button>submit</button>
+</body>
+</html>

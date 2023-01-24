@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        a{
+            text-decoration: none;
+            font-size: 13px;
+        }
+        form{
+            border: 1px solid gray;
+            width: 350px;
+            padding: 20px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+        }
+        .left-bar,.right-bar{
+            border-top: 1px solid gray;
+            width: 110px;
+
+        }
+          .new{
+            display: flex;
+        }
+        .bar-title{
+            color: gray;
+            font-size: 15px;
+            margin-top: -20px;
+            padding: 10px;
+        }
+        p{
+            font-size: 12px;
+        }
+       
+        
+    </style>
+    </head>
+   <body class="container-fluid">
+    <div>
+        <form>
+            <h1>Sign in</h1>
+            <div>
+                <label><b>Email or mobile phone number</b></label>
+            </div>
+            <div class="mb-2">
+                <input type="text" class="form-control">
+            </div>
+            <div class="mb-2">
+                <button class="btn btn-warning w-100">Continue</button>
+            </div>
+            <div>
+                <p>By contuining, you agree to Amazon's<a href="#"> Conditions of of Use</a> and <a href="#">Privacy Notice</a></p>
+            </div>
+            <div class="mb-2">
+                <details>
+                    <summary><a href="#">Need Help?</a></summary>
+                        <dl>
+                            <dd><a href="#">Forgot Password</a></dd>
+                            <dd><a href="#">Other issues</a></dd>
+                        </dl>
+          </details>
+            </div>
+        </form>
+        <div class="mt-4">
+        <div class="new">
+            <div class="left-bar"></div>
+            <span class="bar-title">New to Amazon?</span>
+            <div class="right-bar"></div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+           
+            
+    

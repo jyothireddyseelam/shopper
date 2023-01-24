@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+        }
+       img{
+        transform: scale3d(1,1,1);
+        transition: 2s;
+        margin: 30px;
+       }
+       img:hover{
+        transform: scale3d(1.5,1.5,1);
+        transition: 3s;
+        margin: 50px;
+       }
+       marquee{
+        padding: 50px;
+       }
+        
+        
+    </style>
+</head>
+<body>
+        <marquee height="350" scrollamount="10" onmouseover="this.stop()" onmouseout="this.start()">
+            <img src="../images/a1.jpg" width="200" height="200">
+            <img src="../images/a2.jpg" width="200" height="200">
+            <img src="../images/a3.jpg" width="200" height="200">
+            <img src="../images/a4.jpg" width="200" height="200">
+        </marquee>
+</body>
+</html>
+
+ 
